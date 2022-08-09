@@ -16,5 +16,15 @@ public class Main {
             System.out.println("Сегодня пятница, " + fridayDate + "-е число. Необходимо подготовить отчет.");
             fridayDate += 7;
         }
+
+        //task3
+        System.out.println("\n\nTask 3");
+        int currentYear = 2022;
+        int lowerYear = currentYear - 200;
+        int upperYear = currentYear + 100;
+        for (int year = lowerYear; year <= upperYear; year++) {
+            if ((year % 79) == 0)
+                System.out.println(year);
+        }
     }
 }
