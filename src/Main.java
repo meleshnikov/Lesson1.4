@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        //task1
+     /*   //task1
         System.out.println("Task 1");
         int i = 1;
         while (i <= 10)
@@ -25,6 +25,19 @@ public class Main {
         for (int year = lowerYear; year <= upperYear; year++) {
             if ((year % 79) == 0)
                 System.out.println(year);
+        }
+*/
+        //task4
+        System.out.println("\n\nTask 4");
+        String ping = "";
+        String pong = "";
+        for (int i = 1; i <= 30; i++) {
+            if ((i % 3) == 0)
+                ping = "ping ";
+            if ((i % 5) == 0)
+                pong = "pong";
+            System.out.println(i + ": " + ping + pong);
+            ping = pong = "";
         }
     }
 }
