@@ -39,5 +39,16 @@ public class Main {
             System.out.println(i + ": " + ping + pong);
             ping = pong = "";
         }
+
+        //task5
+        System.out.println("\n\nTask 5");
+        int previous = 0;
+        int next = 1;
+        for (int j = 0; j < 10; j++) {
+            int temp = next;
+            next += previous;
+            System.out.print(previous + " ");
+            previous = temp;
+        }
     }
 }
